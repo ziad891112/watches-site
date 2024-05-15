@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact us Page</title>
+</head>
+
+<body>
+    <header>
+        <button class="hamburger" id="hamburger-icon">
+            <span onclick="openNavbar()"> ☰</span>
+        </button>
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>Z WATCHES</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="Menwatches.html" class="link active">MEN WATCHES</a></li>
+                    <li><a href="Womenwatches.html" class="link active">Women WATCHES</a></li>
+                    <li><a href="contact.html" class="link active">About us</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn"><a style="text-decoration: none; color: black;" href="Log.html"
+                        class="link active">Register</a></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <section class="bnimage">
+            <img src="images/logo.jpg" alt="Welcome to our Contact Us page">
+        </section>
+        <section class="bn2">
+            <h1>Get in Touch With Us</h1>
+        </section>
+        
+
+
+
+    </section>
+
+
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="contact-info">
+        <h2>Z Watch</h2>
+        <address>
+            Gueliz <br>
+            Marrakech, 4000<br>
+            Phone: <a href="tel:1234567890">+212 643 071 668</a><br>
+            Email: <a href="mailto:info@example.com">watchz@gmail.com</a>
+        </address>
+    </section>
+
+
+    <footer>
+        <p>&copy; Montre Z. Tous droits réservés.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
